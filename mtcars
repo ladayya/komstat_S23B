@@ -2,6 +2,7 @@ mtcars
 mean(mtcars$mpg)
 str(mtcars)
 hist(mtcars$mpg)
+hist(mtcars$cyl)
   plot(mtcars$hp, mtcars$mpg,
      main = "Horsepower vs MPG",
      xlab = "Horsepower",
